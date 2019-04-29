@@ -1,14 +1,14 @@
-blah 
-blah
-blah
-blah
+COMMANDS
+-------------------
+~ = Means home
+cd = Change Directory 
+touch = to make a file
+cat = Reads file
 
-blah
-blah
-blah
-blah
+GITHUB PRACTICE
+-------------------
+~Where are you located?
+    - /home/gabby
+~How to clone with HTTPS (On GitHub)
+    - git clone (Link from GitHub)
 
-blah
-
-
-updated from another machine....
