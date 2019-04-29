@@ -11,4 +11,6 @@ GITHUB PRACTICE
     - /home/gabby
 ~How to clone with HTTPS (On GitHub)
     - git clone (Link from GitHub)
+~To save and upload (VisualStudios to GitHub):
+    -Save all. Go to 3 dotted tunnel thing, write message, Check mark, then go to refresh at the bottom to push it.
 
