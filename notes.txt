@@ -4,6 +4,8 @@ COMMANDS
 cd = Change Directory 
 touch = to make a file
 cat = Reads file
+userdel = Deletes userad
+man id = shows flags and what they mean
 
 GITHUB PRACTICE
 -------------------
@@ -14,3 +16,28 @@ GITHUB PRACTICE
 ~To save and upload (VisualStudios to GitHub):
     -Save all. Go to 3 dotted tunnel thing, write message, Check mark, then go to refresh at the bottom to push it.
 
+
+ssh castic@hostname.ad.fiu.edu
+
+CREATE A USER
+------------------
+Make sure you are root (has admin)
+sudo su
+
+Username: useradd (name)
+Password: passwd (name)
+
+DELETE USER
+------------------
+userdel (name)
+
+
+Be sure to cd to go into different folders (Directories)
+Then ls to list what is in the folders.
+
+
+
+yum is a package remanager.
+repolist= reposotory list
+
+Do yum update to manually install
