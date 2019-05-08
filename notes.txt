@@ -7,6 +7,12 @@ cat = Reads file
 userdel = Deletes userad
 man id = shows flags and what they mean
 mkdir = Make Directory
+/ = Top of the file system
+var = variable data
+
+TO LOG OUT OF ROOT
+------------------
+exit
 
 
 GITHUB PRACTICE
@@ -18,8 +24,10 @@ GITHUB PRACTICE
 ~To save and upload (VisualStudios to GitHub):
     -Save all. Go to 3 dotted tunnel thing, write message, Check mark, then go to refresh at the bottom to push it.
 
-
+SSH CONNECTIONS 
+------------------
 ssh castic@hostname.ad.fiu.edu
+
 
 CREATE A USER
 ------------------
@@ -60,3 +68,40 @@ chown assigns permissions to who ever you want tells who is going to own the fil
 chmod changes the permissions
     -chmod 770 Accounting
         -Pay attention to the bits
+
+CHECKING SERVICES
+-------------------
+systemctl
+
+TO CHECK IF SOMETHING IS RUNNING
+-----------------------------------
+(if not in root use sudo) systemctl status "name of what you want to check"
+- checking if Apache is running
+    -(use httpd for Apache) systemctl status httpd
+
+To run : systemctl start httpd
+
+INSTALLING AN APP
+------------------
+sudo yum update httpd (httpd is apache)
+sudo yum install httpd
+
+
+WHERE IS THE WEBSITE?
+---------------------
+Make sure you are at the top of the file system (cd /)
+    -ls
+    -cd var
+    -cd www
+    -html
+    The "index.html" file should be there.
+    To view use cat
+    To open: (Who owns the file?) use vim or nano
+        -
+
+
+
+make directories
+index
+js css blog
+.xtaccess file
