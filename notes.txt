@@ -6,6 +6,8 @@ touch = to make a file
 cat = Reads file
 userdel = Deletes userad
 man id = shows flags and what they mean
+mkdir = Make Directory
+
 
 GITHUB PRACTICE
 -------------------
@@ -41,3 +43,20 @@ yum is a package remanager.
 repolist= reposotory list
 
 Do yum update to manually install
+
+
+ADDING A GROUP
+-------------------
+groupadd heyyoitsagroup
+-To check if a group has been created: cat /etc/group
+
+ADDING USER TO A GROUP
+--------------------
+(put sudo if not in root) usermod -a -G "name of group" "user you want to add"
+-To check if a user is part of a group simply put = id theusersname
+
+chown assigns permissions to who ever you want tells who is going to own the file and who will allow
+
+chmod changes the permissions
+    -chmod 770 Accounting
+        -Pay attention to the bits
